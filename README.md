@@ -2,7 +2,7 @@
 📊 A complete SQL capstone project built during the 
 🔍 Business Case: AtliQ Hardware 
 
-## 🔥 Objective
+##  Objective
 
 AtliQ Hardware struggled with Excel-based analysis across departments.  
 This project solves that by migrating all business analysis into **MySQL**, enabling faster, dynamic, and scalable insights.
@@ -27,28 +27,42 @@ This project solves that by migrating all business analysis into **MySQL**, enab
 ---
 
 ## 📘 Topics I Mastered 
-🔹 Data Retrieval & Filtering
-Used SELECT, WHERE, GROUP BY, and HAVING clauses to extract and aggregate meaningful metrics from large datasets with precision.
+🔹 Data Querying & Filtering
 
-🔹 Joins & Multi-Table Queries
-Applied various joins such as INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN to merge fact and dimension tables for comprehensive analysis across customers, products, and time.
+SELECT, WHERE, DISTINCT, LIKE, BETWEEN, IN, ORDER BY, LIMIT, OFFSET
 
-🔹 Stored Procedures & UDFs
-Built dynamic and reusable Stored Procedures and User Defined Functions (UDFs) to simplify reporting tasks and enhance query reusability and performance.
+🔹 Aggregate & Summary Analytics
 
-🔹 Business Logic & Conditional Fields
-Implemented CASE, IF, and calculated fields to derive business-specific metrics like profit margins, fiscal year alignment, customer segmentation, etc.
+MIN, MAX, AVG, COUNT, GROUP BY, HAVING — to derive key metrics and patterns
 
-🔹 Forecasting with CTEs & Temporary Tables
-Used Common Table Expressions (CTEs) and TEMPORARY TABLES to calculate forecast error, accuracy percentage, and absolute deviation — critical for supply chain analytics.
+🔹 Joins & Data Modeling
 
+INNER, LEFT, RIGHT, FULL JOINS to combine fact and dimension tables effectively
 
-🔹 Data Import & Transformation
-Performed bulk .CSV imports and used appropriate data types (INT, VARCHAR, DECIMAL, etc.) and constraints to align with clean database design principles.
+🔹 Calculated Fields & Business Logic
 
-## 💡 What I Learned
-SQL is more than a query language — it’s a tool to solve business problems through logic and structure.
+CASE, IF, and functions like YEAR(), CURDATE() for profit margins, fiscal flags, etc.
 
-Readable and modular SQL increases the clarity, reusability, and performance of analytics pipelines.
+🔹 Reusable SQL Components
 
-Understanding business context is as important as writing technically correct queries — data alone doesn't solve problems; insights do.
+Stored Procedures and User-Defined Functions to encapsulate business logic
+
+🔹 Forecasting Techniques
+
+Common Table Expressions (CTEs) and TEMP TABLES for demand trend and error analysis
+
+🔹 Window Functions for Advanced Analysis
+
+Applied ROW_NUMBER(), RANK(), DENSE_RANK() using the OVER() clause to segment customers, rank product performance, and identify trends over time
+
+🔹 Data Transformation & Integrity
+
+Imported .CSV files, validated schemas, and enforced data constraints to maintain clean and reliable datasets
+
+📘 Core Learnings
+
+ ✅ SQL is not just about queries—it’s about solving business problems
+
+ ✅ Clean, modular SQL enhances scalability, reusability, and performance
+
+ ✅ Domain knowledge is crucial to transforming data into business impact
